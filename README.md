@@ -23,14 +23,18 @@
 apt install git python -y && git clone https://github.com/onixsat/obfuscator && cd obfuscator && bash requirements.sh && python3 kf.py
 ```
 
+#### Exemplo para obfuscar:
+*** exemplo.sh ***
+```
+#!/usr/bin/env bash
+read -n 6 -p "Enter the name : " name
+echo -e "\nName : $name"
+```
+
 ### Features:
 1. Encrypt or Decrypt bash/shell file
 2. Encrypt python file into emojies
 3. Encrypt python file into custom variables
-
-## Screenshots:
-
-#### Main View:
 
 ### Credits: <a href="#">OnixSat Pro</a> 
 
