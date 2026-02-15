@@ -20,7 +20,7 @@
 
 ### Or, Use Single Command
 ```
-apt install git python -y && git clone https://github.com/onixsat/obfuscator && cd obfuscator && bash requirements.sh && python3 kf.py
+apt install git python -y && git clone https://github.com/onixsat/obfuscator && cd obfuscator && bash requirements.sh && python3 secure.py
 ```
 
 #### Exemplo para obfuscar:
