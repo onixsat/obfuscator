@@ -11,11 +11,11 @@
 
 ```git clone https://github.com/onixsat/obfuscator```
 
-```cd k-fuscator```
+```cd obfuscator```
 
 ```bash requirements.sh```
 
-```python3 kf.py```
+```python3 secure.py```
 
 
 ### Or, Use Single Command
