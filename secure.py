@@ -227,7 +227,7 @@ def main():
             if os.path.exists("/data/data/com.termux/files/home"):
                 os.system("xdg-open --view 'https://github.com/onixsat'")
             else:
-                os.system("xdg-open 'https://github.com/onixsat'")
+                os.system("xdg-open 'README.md'")
             main()
         elif choose == "6" or choose=="06":
             about()
