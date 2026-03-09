@@ -44,7 +44,7 @@ def sprint(sentence, second=0.05):
         time.sleep(second)
 def about():
     os.system("clear")
-    sprint(logo, 0.01)
+    sprint(logo, 0.005)
     print(f"{cyan}[ToolName]  {purple} :[OSPro-Ofuscator]")
     print(f"{cyan}[Version]   {purple} :[1.0]")
     print(f"{cyan}[Author]    {purple} :[OnixSat]")
@@ -205,7 +205,7 @@ def encryptem():
 # Main function
 def main():
     os.system("clear")
-    sprint(logo, 0.01)
+    sprint(logo, 0.005)
     print(f"{green}[1]{yellow} Encrypt{cyan} Bash")
     print(f"{green}[2]{yellow} Decrypt{cyan} Bash")
     print(f"{green}[3]{yellow} Encrypt{cyan} Python into Variable")
